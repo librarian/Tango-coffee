@@ -1,0 +1,135 @@
+# PixelElegance Openbox 3.4 theme by urukrama (August 07)
+# Based on Brian Carper's PixelElegance1.1 gtk2-theme, based on Heylove's PixelElegance for Windows (http://www.customize.org/details/31488)
+
+# Window geometry
+padding.width: 2
+border.width: 1
+window.client.padding.width: 1
+window.client.padding.height: 1
+window.handle.width: 2
+
+#Menu geometry
+menu.border.width: 1
+menu.overlap: 0
+
+# Border colors
+window.active.border.color: #877b56
+window.inactive.border.color: #877b56
+menu.border.color: #877b56
+window.active.client.color: #877b56
+window.inactive.client.color: #877b56
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: center
+
+
+# Active window
+window.active.title.bg: flat solid bevel1
+window.active.title.bg.color: #F4F3F0
+window.active.title.bg.colorTo: #F4F3F0
+
+window.active.label.bg: flat border interlaced bevel1
+window.active.label.bg.color: #877b56
+window.active.label.bg.colorTo: #C8C2B2
+window.active.label.text.color: #f4f3f0
+window.active.label.bg.border.color: #877b56
+window.active.label.bg.interlace.color: #877b56
+
+window.active.handle.bg: raised border gradient vertical bevel1
+window.active.handle.bg.color: #F4F3F0
+window.active.handle.bg.colorTo: #877b56
+
+window.active.grip.bg: raised solid bevel1
+window.active.grip.bg.color: #F4F3F0
+window.active.grip.bg.colorTo: #877b56
+
+window.active.button.unpressed.bg: flat solid bevel1
+window.active.button.unpressed.bg.color: #F4F3F0
+window.active.button.unpressed.image.color:  #B6AE99
+
+window.active.button.pressed.bg: sunken solid bevel1
+window.active.button.pressed.bg.color: #e6e2de
+window.active.button.pressed.bg.border.color: #403A2E
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #F4F3F0
+
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.image.color: #B6AE99
+
+
+# Inactive windows
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #F4F3F0
+window.inactive.title.bg.colorTo: #EFEBE0
+
+window.inactive.label.bg: flat
+window.inactive.label.bg.color: #F4F3F0
+window.inactive.label.bg.border.color: #F4F3F0
+window.inactive.label.text.color: #14120c
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #F4F3F0
+window.inactive.handle.bg.colorTo: #F4F3F0
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #F4F3F0
+window.inactive.grip.bg.colorTo: #EFEBE0
+
+window.inactive.button.unpressed.bg: flat
+window.inactive.button.unpressed.bg.color: #F4F3F0
+window.inactive.button.unpressed.bg.border.color: #868074
+window.inactive.button.unpressed.image.color: #877b56
+
+window.inactive.button.pressed.bg: flat
+window.inactive.button.pressed.bg.color: #F4F3F0
+window.inactive.button.pressed.bg.border.color: #877b56
+window.inactive.button.pressed.image.color: #877b56
+
+window.inactive.button.disabled.bg: flat
+window.inactive.button.disabled.image.color:  #F4F3F0
+
+window.inactive.button.toggled.bg: flat
+window.inactive.button.toggled.image.color: #877b56
+
+
+# Menus
+menu.title.bg: flat
+menu.title.bg.color: #F4F3F0
+menu.title.bg.colorTo: #F4F3F0
+menu.title.text.color: #14120c
+menu.title.text.justify: center
+menu.title.bg.interlace.color: #F4F3F0
+
+menu.items.bg: flat
+menu.items.bg.color: #F4F3F0
+menu.items.text.color: #14120c
+menu.items.justify: left
+menu.items.disabled.text.color: #f9f8f5
+
+menu.items.active.bg: flat
+menu.items.active.bg.color: #bdb18c
+menu.items.active.bg.colorTo: #f4f3f0
+menu.items.active.text.color: #14120c
+menu.items.active.bg.interlace.color: #F4F3F0
+
+menu.bullet.image.color: #DFDACD
+menu.bullet.selected.image.color: #DFDACD
+
+
+#osd
+osd.border.width: 2
+osd.border.color:  #877b56
+
+osd.bg: flat solid bevel1
+osd.bg.color: #F4F3F0
+osd.bg.border.color: #877b56
+
+osd.label.bg: parentrelative
+osd.label.text.color: #403A2E
