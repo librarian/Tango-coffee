@@ -101,7 +101,7 @@ window.inactive.button.toggled.image.color: #877b56
 
 # Menus
 menu.title.bg: flat
-menu.title.bg.color: #F4F3F0
+menu.title.bg.color: #edebdb
 menu.title.bg.colorTo: #F4F3F0
 menu.title.text.color: #14120c
 menu.title.text.justify: center
@@ -111,7 +111,7 @@ menu.items.bg: flat
 menu.items.bg.color: #F4F3F0
 menu.items.text.color: #14120c
 menu.items.justify: left
-menu.items.disabled.text.color: #f9f8f5
+menu.items.disabled.text.color: #DFDACD
 
 menu.items.active.bg: flat
 menu.items.active.bg.color: #bdb18c
