@@ -73,11 +73,11 @@ style "default" {
 	engine "clearlooks" {
 		colorize_scrollbar = FALSE
 		reliefstyle = 1
-		menubarstyle = 2
+		menubarstyle = 0
 		toolbarstyle = 0
 		animation = FALSE
-		radius = 3.0
-		style = CLASSIC
+		radius = 1.5
+		style = GUMMY
 
 		# Set a hint to disable backward compatibility fallbacks.
 		hint = "use-hints"
